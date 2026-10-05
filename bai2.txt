@@ -1,0 +1,10 @@
+1. Phân tích
+- Đường dẫn tuyệt đối chứa vị trí cụ thể của file trên máy mình. Khi chuyển sang máy khác, vị trí có thể khác nên sẽ hiện lỗi FileNotFoundError 
+Luồng IPO:Storage → RAM → CPU → Output
+Storage lưu file chương trình và hình ảnh.RAM chứa dữ liệu khi chương trình đang chạy.CPU xử lý dữ liệu.Output là kết quả hiển thị ra màn hình.
+2.giải pháp
+- đường dẫn tương đối: shopee_lite/main.py/assets/logo.png
+- 3 cách giảm lag:
++tắt các ứng dụng không cần thiết.
++Đóng bớt trình duyệt và tab đang mở.
++Nếu RAM vẫn quá cao thì nâng cấp thêm RAM.
